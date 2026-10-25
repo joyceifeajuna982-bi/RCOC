@@ -1,185 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restoration Church of Christ | Live Prayer Altar</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10100f">
+<meta name="description" content="Restoration Church of Christ — worship, prayer, restoration and testimonies of faith.">
+<title>Restoration Church of Christ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+:root{--bg:#10100f;--panel:#191917;--panel2:#22211e;--gold:#e8bd70;--gold2:#f5dba7;--cream:#f8f3e9;--muted:#b7b2a8;--line:rgba(255,255,255,.11);--max:1180px}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--bg);color:var(--cream);font-family:"DM Sans",sans-serif;line-height:1.65;min-height:100vh}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}button{cursor:pointer}img{max-width:100%;display:block}.container{width:min(var(--max),calc(100% - 36px));margin:auto}.header{position:sticky;top:0;z-index:50;background:rgba(16,16,15,.96);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}.brand-mark{width:44px;height:44px;border:1px solid #8b7044;border-radius:14px;display:grid;place-items:center;color:var(--gold);background:#e8bd7012;font-size:1.1rem}.brand-name{font:800 .98rem Manrope,sans-serif;display:block}.brand-sub{font-size:.68rem;color:var(--gold);letter-spacing:.14em;text-transform:uppercase;display:block}.nav-links{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.nav-btn{background:transparent;color:#d9d3c7;border:1px solid transparent;border-radius:999px;padding:10px 13px;font-size:.85rem}.nav-btn:hover,.nav-btn.active{background:#e8bd7015;border-color:#e8bd7040;color:var(--gold2)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:999px;padding:12px 18px;font-weight:700;transition:.2s}.nav-cta,.btn-gold{background:var(--gold);color:#17140f}.nav-cta:hover,.btn-gold:hover{background:var(--gold2);transform:translateY(-2px)}.btn-ghost{background:#ffffff08;border-color:#ffffff35;color:#fff}.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}.menu-toggle{display:none;background:var(--panel);border:1px solid var(--line);color:#fff;border-radius:12px;width:43px;height:43px}
+.page-view{display:none;min-height:70vh}.page-view.active{display:block}.hero{padding:100px 0 85px;min-height:570px;display:flex;align-items:center;background:linear-gradient(90deg,#10100ff5 0%,#10100fcf 53%,#10100f65 100%),url("https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=2000&q=85") center/cover}.hero-content{max-width:760px}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--gold);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800}.eyebrow:before{content:"";width:25px;height:1px;background:var(--gold)}h1,h2,h3,h4{font-family:Manrope,sans-serif;line-height:1.15;letter-spacing:-.035em}.hero h1{font-size:clamp(3rem,7vw,6rem);line-height:1.02;margin:20px 0}.hero h1 em{font-style:normal;color:var(--gold)}.hero p{max-width:590px;color:#e1dace;font-size:1.05rem;margin-bottom:26px}.actions{display:flex;gap:12px;flex-wrap:wrap}.hero-note{margin-top:36px;color:#ddd5c7;font-size:.88rem}.quick-strip{border-block:1px solid var(--line);background:#141412}.quick-grid{display:grid;grid-template-columns:repeat(3,1fr)}.quick-item{padding:22px;display:flex;align-items:center;gap:14px;border-right:1px solid var(--line)}.quick-item:last-child{border:0}.quick-icon{width:44px;height:44px;display:grid;place-items:center;border-radius:14px;background:#e8bd7017;color:var(--gold)}.quick-item strong{display:block;font-family:Manrope}.quick-item span{font-size:.82rem;color:var(--muted)}.section{padding:72px 0}.section.soft{background:#151513}.section-head{max-width:700px;margin-bottom:32px}.section-head h2,.page-title h1{font-size:clamp(2rem,4vw,3.25rem);margin:13px 0}.section-head p,.page-title p{color:var(--muted)}.page-title{padding:65px 0 20px}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.feature-img{width:100%;height:390px;object-fit:cover;border-radius:22px;border:1px solid var(--line)}.copy p{color:var(--muted);margin:15px 0}.checks{display:grid;gap:10px;margin:22px 0}.checks span{display:flex;gap:10px;align-items:center}.checks i{color:var(--gold)}.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:25px;transition:border-color .2s,transform .2s}.card:hover{border-color:#e8bd7066;transform:translateY(-3px)}.card-icon{width:46px;height:46px;display:grid;place-items:center;border-radius:14px;background:#e8bd7018;color:var(--gold);margin-bottom:18px}.card h3{font-size:1.15rem;margin-bottom:10px}.card p{color:var(--muted);font-size:.92rem}.live-card{border:1px solid #e8bd7040;border-radius:22px;overflow:hidden;background:var(--panel)}.live-head,.live-foot{padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}.live-head{border-bottom:1px solid var(--line)}.live-head p,.live-foot p{color:var(--muted);font-size:.88rem}.badge{background:#ef44441a;color:#ffaaa6;border:1px solid #ef444440;border-radius:999px;padding:6px 11px;font-size:.72rem;font-weight:800}.video-box{aspect-ratio:16/9;background:#070707;display:grid;place-items:center;position:relative}.video-box iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.video-placeholder{text-align:center;padding:25px;max-width:520px}.play{width:65px;height:65px;border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;background:var(--gold);color:#17140f}.video-placeholder p{color:var(--muted);margin:10px 0 18px}.filter-row{display:flex;gap:9px;flex-wrap:wrap;margin:24px 0}.filter-btn{border:1px solid var(--line);background:var(--panel);color:#e8e0d4;border-radius:999px;padding:9px 15px}.filter-btn.active,.filter-btn:hover{border-color:var(--gold);color:var(--gold);background:#e8bd7014}.testimony-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.testimony-card{background:linear-gradient(145deg,#201e19,#171715);border:1px solid #e8bd7030;border-radius:20px;padding:25px;display:flex;flex-direction:column;min-height:245px}.testimony-card .quote{color:var(--gold);font-size:1.5rem;margin-bottom:13px}.testimony-card blockquote{color:#e8e1d5;font-size:.96rem;flex:1}.testimony-person{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:17px;margin-top:20px}.person-icon{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:var(--gold);background:#e8bd7019}.testimony-person strong{display:block;font-size:.87rem}.testimony-person span{color:var(--muted);font-size:.75rem}.testimony-note{border:1px dashed #e8bd7066;border-radius:16px;padding:17px 20px;color:var(--muted);margin-top:22px}.prayer-list{display:grid;gap:12px}.prayer-item{background:var(--panel);border:1px solid var(--line);border-radius:15px;overflow:hidden}.prayer-question{width:100%;display:flex;justify-content:space-between;gap:15px;text-align:left;padding:19px 21px;background:transparent;border:0;color:#fff;font-weight:700}.prayer-question i:first-child{color:var(--gold);margin-right:9px}.prayer-answer{display:none;padding:0 21px 20px;color:var(--muted)}.prayer-item.open .prayer-answer{display:block}.visit-panel{display:grid;grid-template-columns:1.2fr .8fr;background:var(--panel);border:1px solid #e8bd7040;border-radius:22px;overflow:hidden}.visit-copy,.visit-details{padding:32px}.visit-copy p{color:var(--muted);margin:15px 0 22px}.visit-details{background:#e8bd700c;border-left:1px solid var(--line);display:grid;gap:18px}.detail{display:flex;gap:12px}.detail i{color:var(--gold);margin-top:5px}.detail strong{display:block}.detail span{font-size:.86rem;color:var(--muted)}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px}.form-card{background:var(--panel);border:1px solid var(--line);padding:25px;border-radius:20px}.form-card h3{margin-bottom:20px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:grid;gap:7px;margin-bottom:13px}.field.full{grid-column:1/-1}.field label{font-size:.82rem;font-weight:700}.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);border-radius:11px;padding:12px;background:#10100f;color:#fff;outline:none}.field textarea{min-height:110px;resize:vertical}.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--gold)}.footer{border-top:1px solid var(--line);padding:30px 0;background:#0b0b0a;color:var(--muted);font-size:.82rem}.footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-nav{display:flex;gap:15px;flex-wrap:wrap}.footer-nav button{background:none;border:0;color:var(--muted)}.footer-nav button:hover{color:var(--gold)}.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--cream);color:#17140f;padding:12px 18px;border-radius:12px;z-index:100;transition:.2s;font-weight:700;max-width:calc(100% - 30px)}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:900px){.nav-links{display:none;position:absolute;top:78px;left:0;right:0;padding:15px 18px 22px;background:#10100f;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch}.nav-links.open{display:flex}.nav-btn{text-align:left}.menu-toggle{display:grid;place-items:center}.nav-cta{display:none}.card-grid,.testimony-grid{grid-template-columns:repeat(2,1fr)}.grid-2,.contact-grid{grid-template-columns:1fr}.quick-grid{grid-template-columns:1fr}.quick-item{border-right:0;border-bottom:1px solid var(--line)}.quick-item:last-child{border-bottom:0}}
+@media(max-width:560px){.container{width:calc(100% - 26px)}.hero{padding:75px 0;min-height:530px}.hero h1{font-size:3.15rem}.actions{flex-direction:column;align-items:stretch}.actions .btn{width:100%}.card-grid,.testimony-grid{grid-template-columns:1fr}.live-head,.live-foot{align-items:flex-start;flex-direction:column}.visit-panel{grid-template-columns:1fr}.visit-details{border-left:0;border-top:1px solid var(--line)}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.footer-inner{align-items:flex-start;flex-direction:column}.feature-img{height:280px}}
+</style>
 </head>
 <body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="#" data-go="home"><span class="brand-mark"><i class="fa-solid fa-cross"></i></span><span><span class="brand-name">Restoration Church</span><span class="brand-sub">of Christ</span></span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <button class="nav-btn active" data-go="home">Home</button>
+      <button class="nav-btn" data-go="church">Our Church</button>
+      <button class="nav-btn" data-go="live">Watch Live</button>
+      <button class="nav-btn" data-go="gatherings">Gatherings</button>
+      <button class="nav-btn" data-go="prayer">Prayer</button>
+      <button class="nav-btn" data-go="testimonies">Testimonies</button>
+      <button class="nav-btn" data-go="visit">Visit Us</button>
+    </nav>
+    <a class="nav-cta" href="#" data-go="live"><i class="fa-solid fa-play"></i> Join Online</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
 
-    <!-- Header & Navigation -->
-    <header class="header" id="header">
-        <div class="nav-container">
-            <a href="#home" class="logo">
-                <div class="logo-icon"><i class="fa-solid fa-hands-praying"></i></div>
-                <div class="logo-text">
-                    <span class="church-name">Restoration</span>
-                    <span class="church-sub">Prayer Altar</span>
-                </div>
-            </a>
-            
-            <nav class="nav-menu" id="navMenu">
-                <a class="anchor-link active" href="#home">Home</a>
-                <a class="anchor-link" href="#watch-live">Watch Live</a>
-                <a class="anchor-link" href="#prayer-points">Prayer Points</a>
-                <a class="anchor-link" href="#testimonies">Testimonies</a>
-                <a class="anchor-link" href="#about">About</a>
-                <a class="anchor-link btn-nav-cta" href="#watch-live"><i class="fa-solid fa-circle-dot pulse-red"></i> Join Stream</a>
-            </nav>
+<main>
+<div class="page-view active" id="page-home" data-page="home">
+  <section class="hero"><div class="container hero-content">
+    <span class="eyebrow">A home for faith, hope & new beginnings</span>
+    <h1>There is room<br>for <em>you</em> here.</h1>
+    <p>Come as you are. Encounter the love of Jesus, grow in the Word, and discover the beauty of a life restored by Christ.</p>
+    <div class="actions"><button class="btn btn-gold" data-go="visit">Plan Your Visit <i class="fa-solid fa-arrow-right"></i></button><button class="btn btn-ghost" data-go="live"><i class="fa-regular fa-circle-play"></i> Watch Online</button></div>
+    <div class="hero-note"><strong>A community rooted in Christ.</strong><br>Worship. The Word. Fellowship.</div>
+  </div></section>
+  <div class="quick-strip"><div class="container quick-grid">
+    <div class="quick-item"><div class="quick-icon"><i class="fa-regular fa-calendar"></i></div><div><strong>Sunday Worship</strong><span>Add your confirmed service time</span></div></div>
+    <div class="quick-item"><div class="quick-icon"><i class="fa-solid fa-hands-praying"></i></div><div><strong>Need Prayer?</strong><span>We would be honoured to pray with you</span></div></div>
+    <div class="quick-item"><div class="quick-icon"><i class="fa-solid fa-earth-africa"></i></div><div><strong>Wherever You Are</strong><span>Join our church family online</span></div></div>
+  </div></div>
+  <section class="section"><div class="container section-head"><span class="eyebrow">Explore Restoration</span><h2>Faith. Community. New beginnings.</h2><p>Choose a section below to explore the church website. The page changes instantly instead of automatically scrolling down the whole website.</p></div>
+    <div class="container card-grid">
+      <article class="card"><div class="card-icon"><i class="fa-solid fa-book-bible"></i></div><h3>Our Church</h3><p>Discover our heart, faith and community.</p><button class="btn btn-ghost" data-go="church" style="margin-top:18px">Explore <i class="fa-solid fa-arrow-right"></i></button></article>
+      <article class="card"><div class="card-icon"><i class="fa-solid fa-video"></i></div><h3>Watch Live</h3><p>Join online worship and watch messages.</p><button class="btn btn-ghost" data-go="live" style="margin-top:18px">Open live page <i class="fa-solid fa-arrow-right"></i></button></article>
+      <article class="card"><div class="card-icon"><i class="fa-solid fa-quote-left"></i></div><h3>Testimonies</h3><p>Read stories of hope shared by the church family.</p><button class="btn btn-ghost" data-go="testimonies" style="margin-top:18px">Read stories <i class="fa-solid fa-arrow-right"></i></button></article>
+    </div>
+  </section>
+</div>
 
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </header>
+<div class="page-view" id="page-church" data-page="church">
+  <div class="container page-title"><span class="eyebrow">Welcome home</span><h1>A church where restoration begins with Jesus.</h1><p>Get to know the heart of Restoration Church of Christ.</p></div>
+  <section class="section"><div class="container grid-2"><img class="feature-img" src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1000&q=85" alt="People gathered together in fellowship"><div class="copy"><span class="eyebrow">Who we are</span><h2>Growing together in Christ.</h2><p>At Restoration Church of Christ, our heart is to help people know Christ, grow in faith, find community, and live out God's love every day.</p><p>Whether you are exploring faith, returning to church, or looking for a place to belong, you are welcome here. We would love to meet you and walk alongside you.</p><div class="checks"><span><i class="fa-solid fa-check"></i> Biblical teaching that helps faith grow</span><span><i class="fa-solid fa-check"></i> Prayer, worship and heartfelt fellowship</span><span><i class="fa-solid fa-check"></i> A caring community for every generation</span></div><button class="btn btn-gold" data-go="visit">Plan a visit <i class="fa-solid fa-arrow-right"></i></button></div></div></section>
+</div>
 
-    <!-- Main Content -->
-    <main>
+<div class="page-view" id="page-live" data-page="live">
+  <div class="container page-title"><span class="eyebrow">Worship with us</span><h1>Church, wherever you are.</h1><p>When a live broadcast is running, it will appear in the video player below.</p></div>
+  <section class="section"><div class="container"><div class="live-card">
+    <div class="live-head"><div><h3>Restoration Church Online</h3><p>Live worship · Teaching · Prayer</p></div><span class="badge" id="liveState">STREAM SETUP NEEDED</span></div>
+    <div class="video-box" id="videoBox"><div class="video-placeholder" id="videoPlaceholder"><div class="play"><i class="fa-solid fa-play"></i></div><h3>Your online sanctuary</h3><p>Add your YouTube video ID in the JavaScript configuration to show the stream here. Your Vercel website can stay deployed while the church broadcasts live.</p><a class="btn btn-gold" id="youtubeFallback" href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Visit YouTube</a></div></div>
+    <div class="live-foot"><p>Can't watch right now? Catch up on a previous message.</p><a class="btn btn-ghost" id="channelLink" href="https://www.youtube.com/" target="_blank" rel="noopener">Open YouTube channel <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+  </div></div></section>
+</div>
 
-        <!-- Hero Section (Hallelujah Challenge Vibe: Bright, Bold, Focused) -->
-        <section class="hero" id="home">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <i class="fa-solid fa-fire"></i> Midnight Glory & Breakthrough Season
-                </div>
-                <h1 class="hero-title">No More Delays. It's Your Season of Total Restoration.</h1>
-                <p class="hero-subtitle">Welcome to the digital prayer movement. Lift your voice with believers worldwide as we decree breakthroughs in every area of life.</p>
-                
-                <div class="hero-cta-group">
-                    <a href="#watch-live" class="btn btn-primary"><i class="fa-solid fa-play"></i> Join Live Stream Now</a>
-                    <a href="#prayer-points" class="btn btn-outline"><i class="fa-solid fa-book-open"></i> Today's Prayer Guide</a>
-                </div>
-            </div>
-        </section>
+<div class="page-view" id="page-gatherings" data-page="gatherings">
+  <div class="container page-title"><span class="eyebrow">Come gather</span><h1>There is a place for you.</h1><p>Replace these sample details with the church's confirmed weekly programme.</p></div>
+  <section class="section"><div class="container card-grid">
+    <article class="card"><div class="card-icon"><i class="fa-solid fa-sun"></i></div><h3>Sunday Celebration</h3><p>A time to worship together, hear God's Word and build faith as a church family.</p><p style="margin-top:15px;color:var(--gold)">Every Sunday · Add time</p></article>
+    <article class="card"><div class="card-icon"><i class="fa-solid fa-hands-praying"></i></div><h3>Prayer & Intercession</h3><p>Bring your burdens, lift your voice in prayer and stand together in faith.</p><p style="margin-top:15px;color:var(--gold)">Add day and time</p></article>
+    <article class="card"><div class="card-icon"><i class="fa-solid fa-book-open"></i></div><h3>Word & Discipleship</h3><p>Grow in your understanding of Scripture and learn to follow Jesus in daily life.</p><p style="margin-top:15px;color:var(--gold)">Add day and time</p></article>
+  </div></section>
+</div>
 
-        <!-- Watch Live Section -->
-        <section class="section watch-section" id="watch-live">
-            <div class="container">
-                <div class="section-header">
-                    <span class="tag">Live Broadcast</span>
-                    <h2>Encounter God Live</h2>
-                    <p>Connect with the fire altar right now. Drop your prayer requests in the live chat and believe God for an instant miracle.</p>
-                </div>
+<div class="page-view" id="page-prayer" data-page="prayer">
+  <div class="container page-title"><span class="eyebrow">Let's pray together</span><h1>You don't have to carry it alone.</h1><p>Open a prayer card to read a Scripture and prayer prompt.</p></div>
+  <section class="section"><div class="container prayer-list">
+    <article class="prayer-item open"><button class="prayer-question" aria-expanded="true"><span><i class="fa-solid fa-hands-praying"></i> Prayer for restoration and hope</span><i class="fa-solid fa-chevron-down"></i></button><div class="prayer-answer"><p><strong>Read: Joel 2:25</strong></p><p>Father, renew my hope and guide me as I rebuild what has been lost. Give me wisdom, patience and courage to take the next faithful step. Amen.</p></div></article>
+    <article class="prayer-item"><button class="prayer-question" aria-expanded="false"><span><i class="fa-solid fa-heart"></i> Prayer for family and peace</span><i class="fa-solid fa-chevron-down"></i></button><div class="prayer-answer"><p><strong>Read: Philippians 4:6–7</strong></p><p>Lord, let Your peace guard our hearts and minds. Help our families to walk in patience, kindness, forgiveness and love. Amen.</p></div></article>
+    <article class="prayer-item"><button class="prayer-question" aria-expanded="false"><span><i class="fa-solid fa-book-bible"></i> Prayer for wisdom and direction</span><i class="fa-solid fa-chevron-down"></i></button><div class="prayer-answer"><p><strong>Read: James 1:5</strong></p><p>God, give me wisdom for the choices before me. Help me to hear Your Word, seek good counsel and walk faithfully in the path You show me. Amen.</p></div></article>
+    <div style="margin-top:12px"><button class="btn btn-gold" data-go="visit">Contact the church <i class="fa-solid fa-arrow-right"></i></button></div>
+  </div></section>
+</div>
 
-                <div class="video-card">
-                    <div class="live-tag"><span class="pulsing-dot"></span> LIVE NOW</div>
-                    <div class="video-frame">
-                        <!-- Replace src with your YouTube live stream embed link -->
-                        <iframe width="100%" height="520" src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID" title="Restoration Church Live Stream" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </section>
+<div class="page-view" id="page-testimonies" data-page="testimonies">
+  <div class="container page-title"><span class="eyebrow">Faith in everyday life</span><h1>Testimonies of God's goodness.</h1><p>A dedicated testimony page with separate story boxes. Replace the sample cards with real testimonies shared with permission.</p></div>
+  <section class="section"><div class="container">
+    <div class="filter-row" aria-label="Filter testimonies">
+      <button class="filter-btn active" data-filter="all">All testimonies</button>
+      <button class="filter-btn" data-filter="hope">Hope & restoration</button>
+      <button class="filter-btn" data-filter="prayer">Answered prayer</button>
+      <button class="filter-btn" data-filter="faith">Faith journey</button>
+    </div>
+    <div class="testimony-grid" id="testimonyGrid">
+      <article class="testimony-card" data-category="hope"><div class="quote"><i class="fa-solid fa-quote-left"></i></div><blockquote>“Add a real story about a season of difficulty, the support received, and how hope was restored.”</blockquote><div class="testimony-person"><div class="person-icon"><i class="fa-solid fa-user"></i></div><div><strong>Church member</strong><span>Hope & restoration</span></div></div></article>
+      <article class="testimony-card" data-category="prayer"><div class="quote"><i class="fa-solid fa-quote-left"></i></div><blockquote>“Share a genuine answered-prayer story here, using only details the person has agreed to share publicly.”</blockquote><div class="testimony-person"><div class="person-icon"><i class="fa-solid fa-user"></i></div><div><strong>Church member</strong><span>Answered prayer</span></div></div></article>
+      <article class="testimony-card" data-category="faith"><div class="quote"><i class="fa-solid fa-quote-left"></i></div><blockquote>“Tell a real story about growing in faith, learning Scripture, or finding a welcoming church family.”</blockquote><div class="testimony-person"><div class="person-icon"><i class="fa-solid fa-user"></i></div><div><strong>Church member</strong><span>Faith journey</span></div></div></article>
+      <article class="testimony-card" data-category="hope"><div class="quote"><i class="fa-solid fa-quote-left"></i></div><blockquote>“Use this box for another testimony of encouragement, perseverance, or a new beginning.”</blockquote><div class="testimony-person"><div class="person-icon"><i class="fa-solid fa-user"></i></div><div><strong>Church member</strong><span>Hope & restoration</span></div></div></article>
+      <article class="testimony-card" data-category="prayer"><div class="quote"><i class="fa-solid fa-quote-left"></i></div><blockquote>“Add another verified testimony here. Keep the story respectful, truthful, and approved by the person sharing it.”</blockquote><div class="testimony-person"><div class="person-icon"><i class="fa-solid fa-user"></i></div><div><strong>Church member</strong><span>Answered prayer</span></div></div></article>
+      <article class="testimony-card" data-category="faith"><div class="quote"><i class="fa-solid fa-quote-left"></i></div><blockquote>“A testimony can be short and powerful: what happened, what helped, and what the person learned.”</blockquote><div class="testimony-person"><div class="person-icon"><i class="fa-solid fa-user"></i></div><div><strong>Church member</strong><span>Faith journey</span></div></div></article>
+    </div>
+    <div class="testimony-note"><i class="fa-solid fa-shield-heart" style="color:var(--gold)"></i> These are clearly marked sample prompts, not real testimonies. Publish only genuine stories and get the person's permission first.</div>
+  </div></section>
+</div>
 
-        <!-- Prayer Points Section -->
-        <section class="section alt-bg" id="prayer-points">
-            <div class="container">
-                <div class="section-header">
-                    <span class="tag">Word & Fire</span>
-                    <h2>Today's Prayer Points</h2>
-                    <p>Take hold of these prophetic decrees and pray with holy aggression.</p>
-                </div>
+<div class="page-view" id="page-visit" data-page="visit">
+  <div class="container page-title"><span class="eyebrow">Your first visit</span><h1>We would love to welcome you.</h1><p>Ask a question, plan a visit or send a prayer request.</p></div>
+  <section class="section"><div class="container">
+    <div class="visit-panel" style="margin-bottom:30px"><div class="visit-copy"><h2>Come as you are.</h2><p>Visiting a church for the first time can feel like a big step. Contact the church to confirm service times and directions before travelling.</p></div><div class="visit-details"><div class="detail"><i class="fa-regular fa-clock"></i><div><strong>Service times</strong><span>Add confirmed Sunday and midweek times</span></div></div><div class="detail"><i class="fa-solid fa-location-dot"></i><div><strong>Church address</strong><span>Add the verified street address and city</span></div></div><div class="detail"><i class="fa-brands fa-whatsapp"></i><div><strong>Phone / WhatsApp</strong><span>Add the church's official number</span></div></div></div></div>
+    <div class="contact-grid"><div class="copy"><span class="eyebrow">We are listening</span><h2>How can we stand with you?</h2><p>Use this form to prepare a message for the church. Add the official email in the configuration before publishing.</p></div>
+      <form class="form-card" id="contactForm"><h3>Send us a message</h3><div class="form-grid"><div class="field"><label for="name">Your name</label><input id="name" name="name" required placeholder="Full name"></div><div class="field"><label for="contact">Email or phone</label><input id="contact" name="contact" required placeholder="How can we reach you?"></div><div class="field full"><label for="reason">How can we help?</label><select id="reason" name="reason"><option>Prayer request</option><option>Plan a visit</option><option>Church programme enquiry</option><option>Other message</option></select></div><div class="field full"><label for="message">Your message</label><textarea id="message" name="message" required placeholder="Write your message here..."></textarea></div></div><button class="btn btn-gold" type="submit">Prepare message <i class="fa-solid fa-arrow-right"></i></button><p style="color:var(--muted);font-size:.78rem;margin-top:12px">This demo opens your email app; it does not store messages on the website.</p></form>
+    </div>
+  </div></section>
+</div>
+</main>
 
-                <div class="prayer-grid">
-                    <div class="prayer-card">
-                        <div class="prayer-num">01</div>
-                        <h3>Restoration of Lost Years</h3>
-                        <p class="scripture">Joel 2:25 - "And I will restore to you the years that the locust hath eaten..."</p>
-                        <p>Father, by your fire, I command total restoration of every wasted opportunity, blocked finance, and stolen joy in Jesus' name!</p>
-                    </div>
+<footer class="footer"><div class="container footer-inner"><div>© <span id="year"></span> Restoration Church of Christ</div><div class="footer-nav"><button data-go="home">Home</button><button data-go="live">Watch Live</button><button data-go="prayer">Prayer</button><button data-go="testimonies">Testimonies</button><button data-go="visit">Contact</button></div><div>Built with faith, for the community.</div></div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-                    <div class="prayer-card">
-                        <div class="prayer-num">02</div>
-                        <h3>Gates of Sudden Breakthroughs</h3>
-                        <p class="scripture">Isaiah 45:1 - "To open before him the two leaved gates..."</p>
-                        <p>Every ancient gate or door shutting against my career and family is broken down permanently today!</p>
-                    </div>
+<script>
+/* Update these values before publishing the website. */
+const CHURCH_CONFIG = {
+  youtubeVideoId: "YOUR_YOUTUBE_VIDEO_ID",
+  youtubeChannelUrl: "https://www.youtube.com/",
+  churchEmail: "CHURCH_EMAIL"
+};
 
-                    <div class="prayer-card">
-                        <div class="prayer-num">03</div>
-                        <h3>Divine Health & Vitality</h3>
-                        <p class="scripture">Exodus 23:25 - "And I will take sickness away from the midst of thee."</p>
-                        <p>Every root of sickness in my body is uprooted right now by the blood of Jesus. I walk in absolute soundness!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+document.addEventListener("DOMContentLoaded", () => {
+  const navLinks = document.getElementById("navLinks");
+  const menuToggle = document.getElementById("menuToggle");
+  const toast = document.getElementById("toast");
 
-        <!-- Testimonies Section -->
-        <section class="section" id="testimonies">
-            <div class="container">
-                <div class="section-header">
-                    <span class="tag">Miracle Reports</span>
-                    <h2>Praise Reports & Testimonies</h2>
-                    <p>See what God is doing across our global online family.</p>
-                </div>
+  function showToast(message) {
+    toast.textContent = message;
+    toast.classList.add("show");
+    window.setTimeout(() => toast.classList.remove("show"), 3000);
+  }
 
-                <div class="testimony-grid">
-                    <div class="testimony-card">
-                        <i class="fa-solid fa-quote-left quote-icon"></i>
-                        <p>"During the prayer stream, my account was credited with a contract I had given up on for months. God is too faithful!"</p>
-                        <h5>— Sister Deborah M.</h5>
-                    </div>
-                    <div class="testimony-card">
-                        <i class="fa-solid fa-quote-left quote-icon"></i>
-                        <p>"My marriage was experiencing deep turbulence, but God turned everything around overnight. Restoration is real!"</p>
-                        <h5>— Brother Emmanuel K.</h5>
-                    </div>
-                    <div class="testimony-card">
-                        <i class="fa-solid fa-quote-left quote-icon"></i>
-                        <p>"Instant healing took place in my body while following the live broadcast. Praise be to Jesus!"</p>
-                        <h5>— Sister Blessing A.</h5>
-                    </div>
-                </div>
-            </div>
-        </section>
+  // Main navigation uses display:none/display:block-style page switching.
+  // It does not scroll automatically to sections.
+  function showPage(pageName) {
+    const target = document.querySelector('.page-view[data-page="' + pageName + '"]');
+    if (!target) return;
+    document.querySelectorAll(".page-view").forEach(page => {
+      page.classList.remove("active");
+      page.style.display = "none";
+    });
+    target.style.display = "block";
+    target.classList.add("active");
 
-        <!-- About Section -->
-        <section class="section alt-bg" id="about">
-            <div class="container about-container">
-                <div class="about-content">
-                    <span class="tag">About The Movement</span>
-                    <h2>Restoration Church of Christ</h2>
-                    <p>We are a digital-first, spirit-filled global assembly dedicated to intense corporate prayer, uncompromised word delivery, and raising believers who reign in life through Christ Jesus.</p>
-                    <div class="core-values">
-                        <div><i class="fa-solid fa-check"></i> Fervent Prayer Altar</div>
-                        <div><i class="fa-solid fa-check"></i> Global Reach</div>
-                        <div><i class="fa-solid fa-check"></i> Absolute Faith</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    document.querySelectorAll(".nav-btn[data-go]").forEach(button => {
+      button.classList.toggle("active", button.dataset.go === pageName);
+    });
+    navLinks.classList.remove("open");
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.setAttribute("aria-label", "Open menu");
+    menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }
 
-    </main>
+  document.querySelectorAll("[data-go]").forEach(control => {
+    control.addEventListener("click", event => {
+      event.preventDefault();
+      showPage(control.dataset.go);
+    });
+  });
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <div class="logo">
-                <div class="logo-icon"><i class="fa-solid fa-hands-praying"></i></div>
-                <div class="logo-text">
-                    <span class="church-name">Restoration</span>
-                    <span class="church-sub">Prayer Altar</span>
-                </div>
-            </div>
-            <p>&copy; 2026 Restoration Church of Christ. All Rights Reserved.</p>
-            <div class="footer-socials">
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            </div>
-        </div>
-    </footer>
+  menuToggle.addEventListener("click", () => {
+    const open = navLinks.classList.toggle("open");
+    menuToggle.setAttribute("aria-expanded", String(open));
+    menuToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    menuToggle.innerHTML = open ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+  });
 
-    <script src="script.js"></script>
+  document.querySelectorAll(".prayer-question").forEach(button => {
+    button.addEventListener("click", () => {
+      const item = button.closest(".prayer-item");
+      const open = !item.classList.contains("open");
+      item.classList.toggle("open", open);
+      button.setAttribute("aria-expanded", String(open));
+    });
+  });
+
+  // Testimony filters show/hide testimony boxes, without scrolling.
+  document.querySelectorAll(".filter-btn").forEach(button => {
+    button.addEventListener("click", () => {
+      const category = button.dataset.filter;
+      document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.toggle("active", btn === button));
+      document.querySelectorAll(".testimony-card").forEach(card => {
+        card.style.display = category === "all" || card.dataset.category === category ? "flex" : "none";
+      });
+    });
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  const videoId = CHURCH_CONFIG.youtubeVideoId.trim();
+  document.getElementById("channelLink").href = CHURCH_CONFIG.youtubeChannelUrl;
+  document.getElementById("youtubeFallback").href = CHURCH_CONFIG.youtubeChannelUrl;
+  if (videoId && videoId !== "YOUR_YOUTUBE_VIDEO_ID") {
+    const iframe = document.createElement("iframe");
+    iframe.src = "https://www.youtube-nocookie.com/embed/" + encodeURIComponent(videoId) + "?rel=0";
+    iframe.title = "Restoration Church of Christ online service";
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.allowFullscreen = true;
+    iframe.loading = "lazy";
+    document.getElementById("videoPlaceholder").replaceWith(iframe);
+    document.getElementById("liveState").textContent = "VIDEO CONNECTED";
+  }
+
+  document.getElementById("contactForm").addEventListener("submit", event => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    if (!CHURCH_CONFIG.churchEmail || CHURCH_CONFIG.churchEmail === "CHURCH_EMAIL" || !CHURCH_CONFIG.churchEmail.includes("@")) {
+      showToast("Add the church's real email in CHURCH_CONFIG before launch.");
+      return;
+    }
+    const subject = encodeURIComponent("Website enquiry: " + data.get("reason"));
+    const body = encodeURIComponent("Name: " + data.get("name") + "\nContact: " + data.get("contact") + "\nReason: " + data.get("reason") + "\n\nMessage:\n" + data.get("message"));
+    window.location.href = "mailto:" + CHURCH_CONFIG.churchEmail + "?subject=" + subject + "&body=" + body;
+  });
+});
+</script>
 </body>
 </html>
